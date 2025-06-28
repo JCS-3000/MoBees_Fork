@@ -3,6 +3,7 @@ package com.noodlepfp.mobees.item;
 import forestry.api.core.IBlockSubtype;
 import forestry.api.core.IItemSubtype;
 import net.minecraft.util.StringRepresentable;
+import org.jetbrains.annotations.NotNull;
 
 import java.awt.*;
 import java.util.Locale;
@@ -46,6 +47,7 @@ public enum MoreBeesEnumHoneyComb implements StringRepresentable, IItemSubtype, 
     ARCANE(new Color(0x92DEE5), new Color(0xC494E1)),
     DECAYED(new Color(0xD2D2D2), new Color(0xAD8484)),
     PAPER(new Color(0x8A7070), new Color(0x9373B0));
+
     public static final MoreBeesEnumHoneyComb[] VALUES = values();
 
     public final String name;
@@ -53,17 +55,13 @@ public enum MoreBeesEnumHoneyComb implements StringRepresentable, IItemSubtype, 
     public final int secondaryColor;
 
     MoreBeesEnumHoneyComb(Color primary, Color secondary) {
-        this(primary, secondary, null);
-    }
-
-    MoreBeesEnumHoneyComb(Color primary, Color secondary, String compatName) {
-        this.name = toString().toLowerCase(Locale.ENGLISH);
+        this.name = name().toLowerCase(Locale.ENGLISH);
         this.primaryColor = primary.getRGB();
         this.secondaryColor = secondary.getRGB();
     }
 
     @Override
-    public String getSerializedName() {
+    public @NotNull String getSerializedName() {
         return name;
     }
 

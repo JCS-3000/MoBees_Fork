@@ -218,6 +218,8 @@ public class MoreBeesRecipeProvider {
 
         registerModCompatBitRecipe(recipes, "yellorium_from_bits", MoBeesEnumModCompat.YELLORIUM, MoreBeesEnumBeeProduce.YELLORIUM_BIT);
 
+        registerModCompatBitRecipe(recipes, "uranium_from_bits", MoBeesEnumModCompat.URANIUM, MoreBeesEnumBeeProduce.URANIUM_BIT);
+
         registerModCompatBitRecipe(recipes, "certus_from_bits", MoBeesEnumModCompat.CERTUS, MoreBeesEnumBeeProduce.CERTUS_BIT);
 
         registerModCompatBitRecipe(recipes, "cobalt_from_bits", MoBeesEnumModCompat.COBALT, MoreBeesEnumBeeProduce.COBALT_BIT);
@@ -312,6 +314,8 @@ public class MoreBeesRecipeProvider {
                     MoreBeesItems.BEE_PRODUCE_MATERIALS.get(MoreBeesEnumBeeProduce.ZINC_BIT));
             put(MoreBeesApicultureItems.BEE_COMBS.get(MoreBeesEnumHoneyComb.YELLORIUM),
                     MoreBeesItems.BEE_PRODUCE_MATERIALS.get(MoreBeesEnumBeeProduce.YELLORIUM_BIT));
+            put(MoreBeesApicultureItems.BEE_COMBS.get(MoreBeesEnumHoneyComb.URANIUM),
+                    MoreBeesItems.BEE_PRODUCE_MATERIALS.get(MoreBeesEnumBeeProduce.URANIUM_BIT));
             put(MoreBeesApicultureItems.BEE_COMBS.get(MoreBeesEnumHoneyComb.CERTUS),
                     MoreBeesItems.BEE_PRODUCE_MATERIALS.get(MoreBeesEnumBeeProduce.CERTUS_BIT));
         }};

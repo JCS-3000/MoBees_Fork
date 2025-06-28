@@ -48,6 +48,7 @@ public class MoreBeesTags {
         public static final TagKey<Block> ROCK_FLOWERS_OSMIUM = blockTag("flowers/osmium");
         public static final TagKey<Block> ROCK_FLOWERS_COBALT = blockTag("flowers/cobalt");
         public static final TagKey<Block> ROCK_FLOWERS_YELLORIUM = blockTag("flowers/yellorium");
+        public static final TagKey<Block> ROCK_FLOWERS_URANIUM = blockTag("flowers/uranium");
         public static final TagKey<Block> ROCK_FLOWERS_CERTUS_QUARTZ = blockTag("flowers/certus_quartz");
         public static final TagKey<Block> ROCK_FLOWERS_IRON = blockTag("flowers/iron");
         public static final TagKey<Block> ROCK_FLOWERS_GOLD = blockTag("flowers/gold");
@@ -69,6 +70,7 @@ public class MoreBeesTags {
         public static final TagKey<Block> F_ORE_SILVER = forgeBlockTag("ores/silver");
         public static final TagKey<Block> F_ORE_CERTUS_QUARTZ = forgeBlockTag("ores/certus_quartz");
         public static final TagKey<Block> F_ORE_YELLORIUM = forgeBlockTag("ores/yellorium");
+        public static final TagKey<Block> F_ORE_URANIUM = forgeBlockTag("ores/uranium");
     }
 
     public static class Items {

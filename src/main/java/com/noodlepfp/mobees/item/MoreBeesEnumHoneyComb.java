@@ -25,6 +25,7 @@ public enum MoreBeesEnumHoneyComb implements StringRepresentable, IItemSubtype, 
     ALUMINUM(new Color(0x9F9F9F), new Color(0xC8FFF5)),
     CERTUS(new Color(0x9F9F9F), new Color(0xEAD8FC)),
     YELLORIUM(new Color(0x9F9F9F), new Color(0xFFEA00)),
+    URANIUM(new Color(0xC0E600), new Color(0x6FE600)),
 
     // BACK TO REGULAR
     IRON(new Color(0x9F9F9F), new Color(0xD5D5D5)),

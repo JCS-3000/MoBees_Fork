@@ -33,6 +33,7 @@ public class MoreBeesBlockTagsProvider {
         tags.tag(MoreBeesTags.Blocks.ROCK_FLOWERS_ALUMINUM).addOptionalTag(MoreBeesTags.Blocks.F_ORE_ALUMINUM);
         tags.tag(MoreBeesTags.Blocks.ROCK_FLOWERS_SILVER).addOptionalTag(MoreBeesTags.Blocks.F_ORE_SILVER);
         tags.tag(MoreBeesTags.Blocks.ROCK_FLOWERS_YELLORIUM).addOptionalTag(MoreBeesTags.Blocks.F_ORE_YELLORIUM);
+        tags.tag(MoreBeesTags.Blocks.ROCK_FLOWERS_URANIUM).addOptionalTag(MoreBeesTags.Blocks.F_ORE_URANIUM);
         tags.tag(MoreBeesTags.Blocks.ROCK_FLOWERS_CERTUS_QUARTZ).addOptionalTag(MoreBeesTags.Blocks.F_ORE_CERTUS_QUARTZ);
         tags.tag(MoreBeesTags.Blocks.ROCK_FLOWERS_IRON).addTag(Tags.Blocks.ORES_IRON);
         tags.tag(MoreBeesTags.Blocks.ROCK_FLOWERS_GOLD).addTag(Tags.Blocks.ORES_GOLD);

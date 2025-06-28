@@ -11,6 +11,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static com.noodlepfp.mobees.MoBeesModCompat.ModCompatIds.*;
+import static com.noodlepfp.mobees.MoBeesModCompat.ModCompatIds.alexscaves;
+import static com.noodlepfp.mobees.MoBeesModCompat.ModCompatIds.biggerreactors;
 
 public class MoBeesModCompat {
     private static final Map<String, DeferredRegister<Item>> itemRegistries = new HashMap<>();
@@ -22,6 +24,7 @@ public class MoBeesModCompat {
     public static final Map<String, RegistryObject<Item>> ALUMINUM_INGOT = new HashMap<>();
     public static final Map<String, RegistryObject<Item>> OSMIUM_INGOT = new HashMap<>();
     public static final Map<String, RegistryObject<Item>> YELLORIUM_INGOT = new HashMap<>();
+    public static final Map<String, RegistryObject<Item>> URANIUM_INGOT = new HashMap<>();
     public static final Map<String, RegistryObject<Item>> COBALT_INGOT = new HashMap<>();
     public static final Map<String, RegistryObject<Item>> CERTUS_QUARTZ = new HashMap<>();
 
@@ -55,6 +58,12 @@ public class MoBeesModCompat {
         OSMIUM_INGOT.put(allTheOres, item(allTheOres, "osmium_ingot"));
 
         YELLORIUM_INGOT.put(bigReactors, item(bigReactors, "yellorium_ingot"));
+
+        URANIUM_INGOT.put(biggerreactors, item(biggerreactors, "uranium_ingot"));
+        URANIUM_INGOT.put(mekanism, item(mekanism, "ingot_uranium"));
+        URANIUM_INGOT.put(immersiveEngineering, item(immersiveEngineering, "ingot_uranium"));
+        URANIUM_INGOT.put(allTheOres, item(allTheOres, "uranium_ingot"));
+        URANIUM_INGOT.put(alexscaves, item(alexscaves, "uranium"));
 
         COBALT_INGOT.put(tinkers, item(tinkers, "cobalt_ingot"));
 
@@ -90,6 +99,8 @@ public class MoBeesModCompat {
         public static String allTheOres = "alltheores";
         public static String gregTech = "gtceu";
         public static String railcraft = "railcraft";
+        public static String alexscaves = "alexscaves";
+        public static String biggerreactors = "biggerreactors";
     }
 
 

@@ -18,6 +18,7 @@ public enum MoreBeesEnumBeeProduce implements IItemSubtype {
     ALUMINUM_BIT,
     SILVER_BIT,
     YELLORIUM_BIT,
+    URANIUM_BIT,
     CERTUS_BIT,
     IRON_BIT,
     GOLD_BIT,

@@ -746,6 +746,23 @@ public class MoreBeesDefinition {
                     .setAuthority("noodlepfp");
         }
 
+        // ATOMIC LINE
+        if (MoBeesEnumModCompat.URANIUM.isItemLoadedByAnyMod()) {
+            apiculture.registerSpecies(MoreBeesSpecies.ATOMIC, MoreBeesTaxa.GENUS_UNUSUAL, MoreBeesTaxa.SPECIES_URANIUM, true, TextColor.fromRgb(0xC0E600))
+                    .setBody(TextColor.fromRgb(0x6FE600))
+                    .addProduct(MoreBeesApicultureItems.BEE_COMBS.stack(MoreBeesEnumHoneyComb.ROCKY), 0.2f)
+                    .addProduct(MoreBeesApicultureItems.BEE_COMBS.stack(MoreBeesEnumHoneyComb.URANIUM), 0.05f)
+                    .addSpecialty(MoreBeesApicultureItems.BEE_COMBS.stack(MoreBeesEnumHoneyComb.URANIUM), 0.025f)
+                    .setGenome(genome -> {
+                        genome.set(BeeChromosomes.FLOWER_TYPE, MoreBeesAlleles.FLOWER_TYPE_URANIUM);
+                        genome.set(BeeChromosomes.SPEED, ForestryAlleles.SPEED_SLOWEST);
+                    })
+                    .addMutations(mutations -> {
+                        mutations.add(MoreBeesSpecies.RUSTY, MoreBeesSpecies.UNUSUAL, 5);
+                    })
+                    .setAuthority("noodlepfp");
+        }
+
         // ALPINE LINE
         apiculture.registerSpecies(MoreBeesSpecies.ALPINE, MoreBeesTaxa.GENUS_ALPINE, MoreBeesTaxa.SPECIES_ALPINE, true, TextColor.fromRgb(0x92DEE5))
                 .setBody(TextColor.fromRgb(0x317547))

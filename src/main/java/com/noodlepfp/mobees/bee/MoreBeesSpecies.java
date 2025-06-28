@@ -50,6 +50,9 @@ public class MoreBeesSpecies {
     // NUCLEAR LINE
     public static final ResourceLocation YELLORIUM = mobees("bee_yellorium");
 
+    //ATOMIC LINE
+    public static final ResourceLocation ATOMIC = mobees("bee_uranium");
+
     // EXTRA NETHER LINE
     public static final ResourceLocation CRIMSON = mobees("bee_crimson");
     public static final ResourceLocation GLOWSTONE = mobees("bee_glowstone");

@@ -17,6 +17,7 @@ public class MoreBeesFlowerType {
     public static final ResourceLocation ROCK_OSMIUM = MoBeesModule.mobees("flower_type_rock_osmium");
     public static final ResourceLocation ROCK_COBALT = MoBeesModule.mobees("flower_type_rock_cobalt");
     public static final ResourceLocation ROCK_YELLORIUM = MoBeesModule.mobees("flower_type_rock_yellorium");
+    public static final ResourceLocation ROCK_URANIUM = MoBeesModule.mobees("flower_type_rock_uranium");
     public static final ResourceLocation ROCK_CERTUS_QUARTZ = MoBeesModule.mobees("flower_type_rock_certus_quartz");
     public static final ResourceLocation ROCK_IRON = MoBeesModule.mobees("flower_type_rock_iron");
     public static final ResourceLocation ROCK_GOLD = MoBeesModule.mobees("flower_type_rock_gold");

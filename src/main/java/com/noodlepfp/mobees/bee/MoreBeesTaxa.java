@@ -21,6 +21,7 @@ public class MoreBeesTaxa {
     public static final String SPECIES_OSMIUM = "Osmium";
     public static final String SPECIES_UNUSUAL = "Unusual";
     public static final String SPECIES_YELLORIUM = "Yellorium";
+    public static final String SPECIES_URANIUM = "Atomic";
     public static final String SPECIES_CERTUS = "Certus";
     public static final String SPECIES_IRON = "Iron";
     public static final String SPECIES_GOLD = "Gold";

@@ -218,3 +218,18 @@ static def getChangelog(Object version) {
     // Fallback in case this fails
     return "MoBees Update ${version}"
 }
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = project.group
+            artifactId = base.archivesName.get()
+            version = project.version
+
+            from components.java
+        }
+    }
+    repositories {
+        mavenLocal()
+    }
+}
